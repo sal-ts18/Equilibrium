@@ -38,10 +38,23 @@ body {
     border-radius: 13px;
     cursor: pointer;
   }
+  .eye {
+    background: #00fff8;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    display: none;
+    border-radius: 8px;
+    opacity: 0.4;
+  }
+  
+  .image-box:hover .eye {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
    
-
-
-
   .icon {
     display: flex;
     justify-content: space-between;
